@@ -11,8 +11,6 @@
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Pinz DomainModel</tags>
+    <dependencies />
   </metadata>
-  <files>
-    <file/>
-  </files>
 </package>
