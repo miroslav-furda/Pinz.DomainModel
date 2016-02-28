@@ -46,7 +46,6 @@
     <Compile Include="TaskStatus.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".nuspec" />
     <None Include="Pinz.DomainModel.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
