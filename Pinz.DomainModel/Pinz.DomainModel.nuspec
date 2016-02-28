@@ -10,6 +10,9 @@
     <description>Domain Model for Pinz Online</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2016</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>Pinz DomainModel</tags>
+    <files>
+      <file src="..\bin\Release\Pinz.DomainModel.dll" target="lib\net45" />
+    </files>
   </metadata>
 </package>
