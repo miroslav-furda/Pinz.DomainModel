@@ -13,6 +13,5 @@
     <tags>Pinz DomainModel</tags>
   </metadata>
   <files>
-    <file src="..\bin\Release\Pinz.DomainModel.dll" target="lib\net45" />
   </files>
 </package>
