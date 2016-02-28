@@ -11,8 +11,8 @@
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Pinz DomainModel</tags>
-    <files>
-      <file src="..\bin\Release\Pinz.DomainModel.dll" target="lib\net45" />
-    </files>
   </metadata>
+  <files>
+    <file src="..\bin\Release\Pinz.DomainModel.dll" target="lib\net45" />
+  </files>
 </package>
