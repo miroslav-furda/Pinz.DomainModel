@@ -12,8 +12,6 @@ namespace com.Pinzonline.DomainModel
 
         bool IsComplete { get; set; }
 
-        string Owner { get; set; }
-
         DateTime CreationTime { get; set; }
 
         DateTime? DateCompleted { get; set; }
@@ -26,13 +24,12 @@ namespace com.Pinzonline.DomainModel
 
         TaskStatus Status { get; set; }
 
-        string Priority { get; set; }
-
-        string Companies { get; set; }
+        TaskPriority Priority { get; set; }
 
         Guid CategoryId { get; set; }
-
         ICategory Category { get; set; }
 
+        Guid UserId { get; set; }
+        IUser User { get; set; }
     }
 }

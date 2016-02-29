@@ -41,9 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICategory.cs" />
+    <Compile Include="ICompany.cs" />
     <Compile Include="IProject.cs" />
     <Compile Include="ITask.cs" />
+    <Compile Include="IUser.cs" />
+    <Compile Include="IWorkGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskPriority.cs" />
     <Compile Include="TaskStatus.cs" />
   </ItemGroup>
   <ItemGroup>

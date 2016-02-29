@@ -2,11 +2,10 @@
 
 namespace com.Pinzonline.DomainModel
 {
-    public interface IProject
+    public interface IUser
     {
-        Guid ProjectId { get; set; }
+        Guid UserId { get; set; }
         string Name { get; set; }
-        string Description { get; set; }
 
         Guid WorkGroupId { get; set; }
         IWorkGroup WorkGroup { get; set; }

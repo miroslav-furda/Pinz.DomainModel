@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace com.Pinzonline.DomainModel
 {
@@ -9,6 +8,7 @@ namespace com.Pinzonline.DomainModel
 
         string CategoryName { get; set; }
 
-        List<ITask> Tasks { get; set; }
+        Guid ProjectId { get; set; }
+        IProject Project { get; set; }
     }
 }

@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>Pinz.DomainModel</id>
-    <version>0.9.1</version>
+    <version>0.9.4</version>
     <title>Domain Model for Pinz Online</title>
     <authors>Miroslav Furda</authors>
     <owners>Miroslav Furda</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Domain Model for Pinz Online</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Initial version.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Pinz DomainModel</tags>
     <dependencies />
