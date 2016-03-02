@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Pinz.DomainModel</id>
-    <version>0.9.4</version>
+    <version>1.0.0</version>
     <title>Domain Model for Pinz Online</title>
     <authors>Miroslav Furda</authors>
     <owners>Miroslav Furda</owners>

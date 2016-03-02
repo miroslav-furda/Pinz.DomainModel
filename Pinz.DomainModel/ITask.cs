@@ -1,17 +1,21 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace com.Pinzonline.DomainModel
+namespace Com.Pinzonline.DomainModel
 {
     public interface ITask
     {
+        [Key]
         Guid TaskId { get; set; }
 
+        [Required]
         string TaskName { get; set; }
 
         string Body { get; set; }
 
         bool IsComplete { get; set; }
 
+        [Required]
         DateTime CreationTime { get; set; }
 
         DateTime? DateCompleted { get; set; }
@@ -22,14 +26,14 @@ namespace com.Pinzonline.DomainModel
 
         int ActualWork { get; set; }
 
+        [Required]
         TaskStatus Status { get; set; }
 
         TaskPriority Priority { get; set; }
 
+        [Required]
         Guid CategoryId { get; set; }
-        ICategory Category { get; set; }
 
         Guid UserId { get; set; }
-        IUser User { get; set; }
     }
 }

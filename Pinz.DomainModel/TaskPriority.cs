@@ -1,4 +1,4 @@
-﻿namespace com.Pinzonline.DomainModel
+﻿namespace Com.Pinzonline.DomainModel
 {
     public enum TaskPriority
     {

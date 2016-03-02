@@ -1,14 +1,17 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace com.Pinzonline.DomainModel
+namespace Com.Pinzonline.DomainModel
 {
     public interface ICategory
     {
+        [Key]
         Guid CategoryId { get; set; }
 
-        string CategoryName { get; set; }
+        [Required]
+        string Name { get; set; }
 
+        [Required]
         Guid ProjectId { get; set; }
-        IProject Project { get; set; }
     }
 }

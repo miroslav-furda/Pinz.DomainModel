@@ -1,13 +1,21 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace com.Pinzonline.DomainModel
+namespace Com.Pinzonline.DomainModel
 {
     public interface IUser
     {
+        [Key]
         Guid UserId { get; set; }
-        string Name { get; set; }
 
-        Guid WorkGroupId { get; set; }
-        IWorkGroup WorkGroup { get; set; }
+        [Required]
+        string EMail { get; set; }
+
+        string FirstName { get; set; }
+
+        string FamilyName { get; set; }
+
+        [Required]
+        Guid CompanyId { get; set; }
     }
 }
