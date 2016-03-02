@@ -29,11 +29,11 @@ namespace Com.Pinzonline.DomainModel
         [Required]
         TaskStatus Status { get; set; }
 
-        TaskPriority Priority { get; set; }
+        TaskPriority? Priority { get; set; }
 
         [Required]
         Guid CategoryId { get; set; }
 
-        Guid UserId { get; set; }
+        Guid? UserId { get; set; }
     }
 }
