@@ -6,7 +6,7 @@ namespace Com.Pinzonline.DomainModel
     public interface ICompany
     {
         [Key]
-        Guid ComapnyId { get; set; }
+        Guid CompanyId { get; set; }
 
         [Required]
         string Name { get; set; }

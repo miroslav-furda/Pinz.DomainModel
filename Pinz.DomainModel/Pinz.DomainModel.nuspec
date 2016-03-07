@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>Pinz.DomainModel</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Domain Model for Pinz Online</title>
     <authors>Miroslav Furda</authors>
     <owners>Miroslav Furda</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Domain Model for Pinz Online</description>
-    <releaseNotes>Task has nullable properties.</releaseNotes>
+    <releaseNotes>CompanyId field spell fix.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Pinz DomainModel</tags>
     <dependencies />
