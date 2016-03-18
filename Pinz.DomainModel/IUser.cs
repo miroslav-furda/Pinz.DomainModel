@@ -6,6 +6,9 @@ namespace Com.Pinzonline.DomainModel
     public interface IUser
     {
         [Key]
+        Guid UserId { get; set; }
+
+        [Required]
         string EMail { get; set; }
 
         string FirstName { get; set; }

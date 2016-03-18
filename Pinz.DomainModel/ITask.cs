@@ -34,6 +34,6 @@ namespace Com.Pinzonline.DomainModel
         [Required]
         Guid CategoryId { get; set; }
 
-        string EMail{ get; set; }
+        Guid? UserId{ get; set; }
     }
 }
