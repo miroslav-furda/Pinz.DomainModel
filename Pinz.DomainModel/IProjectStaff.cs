@@ -7,7 +7,7 @@ namespace Com.Pinzonline.DomainModel
     public interface IProjectStaff
     {
         [Key]
-        Guid UserId { get; set; }
+        string EMail { get; set; }
 
         [Key]
         Guid ProjectId { get; set; }
