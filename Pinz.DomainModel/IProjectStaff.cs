@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Com.Pinzonline.DomainModel
+namespace Com.Pinz.DomainModel
 {
     public interface IProjectStaff
     {

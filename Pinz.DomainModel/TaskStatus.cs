@@ -1,4 +1,4 @@
-﻿namespace Com.Pinzonline.DomainModel
+﻿namespace Com.Pinz.DomainModel
 {
     public enum TaskStatus
     {
