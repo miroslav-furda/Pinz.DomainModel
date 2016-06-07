@@ -45,6 +45,7 @@
     <Compile Include="ICompany.cs" />
     <Compile Include="IProject.cs" />
     <Compile Include="IProjectStaff.cs" />
+    <Compile Include="IProjectUser.cs" />
     <Compile Include="ITask.cs" />
     <Compile Include="IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
